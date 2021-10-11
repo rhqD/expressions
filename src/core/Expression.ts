@@ -10,7 +10,7 @@ export interface Calculation {
 export interface IExpression {
   toString: () => string;
   deriv: (node: Expression) => Expression;
-  get value(): number;
+  value: number;
   isConstant: boolean;
 }
 
