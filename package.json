@@ -1,7 +1,7 @@
 {
-  "name": "mathlab_temp",
+  "name": "rhq-expressions",
   "version": "1.0.0",
-  "description": "",
+  "description": "rhq's lib for math expressions, capable of constructing math expressions, pieced expressions and derivatives",
   "main": "index.js",
   "scripts": {
     "test": "jest",
