@@ -6,7 +6,7 @@
     "sourceMap": false,
     "declaration": true,
     "noImplicitAny": true,
-    "module": "ESNext",
+    "module": "commonjs",
     "target": "es5",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,

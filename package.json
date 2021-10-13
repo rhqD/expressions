@@ -1,6 +1,6 @@
 {
   "name": "rhq-expressions",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "rhq's lib for math expressions, capable of constructing math expressions, pieced expressions and derivatives",
   "main": "index.js",
   "scripts": {
