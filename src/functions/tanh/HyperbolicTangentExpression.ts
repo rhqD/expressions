@@ -12,7 +12,6 @@
   // };
 
 import { memoize } from "lodash";
-import { degreeToRadian } from "../../common/utils";
 import { Constant, Expression, UnaryExpression } from "../../core/Expression";
 import { pow } from "../pow";
 import { sub } from "../subtraction";

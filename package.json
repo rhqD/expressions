@@ -1,11 +1,13 @@
 {
   "name": "rhq-expressions",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "rhq's lib for math expressions, capable of constructing math expressions, pieced expressions and derivatives",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc --declaration"
+    "clean": "rm -rf build",
+    "build": "npm run clean && tsc && cp ./package.json build",
+    "pub": "npm run test && npm run build && npm publish ./build"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +17,8 @@
     "jest": "^27.0.6",
     "ts-jest": "^27.0.4",
     "ts-loader": "^9.2.3",
-    "typescript": "^4.3.5",
-    "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2"
+    "tslib": "^2.1.0",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "@types/lodash": "^4.14.171",

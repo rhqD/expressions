@@ -1,6 +1,5 @@
 import { memorizeBinaryFunction } from "../../common/utils";
 import { BinaryExpression, Constant, Expression } from "../../core/Expression";
-import { div } from "../division";
 import { ln } from "../ln";
 import { mul } from "../multiply";
 import { pow } from "../pow";

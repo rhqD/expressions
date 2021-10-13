@@ -1,19 +1,25 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./build/",
+    "sourceMap": false,
+    "declaration": true,
     "noImplicitAny": true,
-    "module": "es6",
+    "module": "ESNext",
     "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
-    "src/**/*.test.ts"
+    "node_modues", "src/**/*.test.ts"
   ]
 }

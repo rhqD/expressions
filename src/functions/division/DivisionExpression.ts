@@ -1,5 +1,5 @@
 import { memorizeBinaryFunction } from "../../common/utils";
-import { BinaryExpression, Constant, Expression, MultiplicationExpression } from "../../core/Expression";
+import { BinaryExpression, Constant, Expression } from "../../core/Expression";
 import { mul } from "../multiply";
 import { pow } from "../pow";
 
